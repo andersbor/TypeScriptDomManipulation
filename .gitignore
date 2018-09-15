@@ -1,0 +1,14 @@
+/node_modules
+/dist
+.DS_Store
+*.log
+.idea
+.vscode
+.eslintcache
+package-lock.json
+
+# ignore all files in the dest folder
+dist/*
+
+#ignore all files in the node_modules folder
+node_modules/*
