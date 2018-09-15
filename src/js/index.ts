@@ -9,7 +9,7 @@ nameButton.addEventListener("click", () => {
 
 let element: HTMLDivElement = <HTMLDivElement>document.getElementById("content");
 
-let button: HTMLButtonElement = <HTMLButtonElement>document.getElementById("buttonShowHide");
+let button: HTMLButtonElement = <HTMLButtonElement>document.getElementById("showHideButton");
 button.addEventListener("click", () => {
     console.log(element.style.display);
     if (element.style.display === "block") {
@@ -23,7 +23,7 @@ button.addEventListener("click", () => {
 
 let list: HTMLOListElement = <HTMLOListElement>document.getElementById("list");
 let inputElement: HTMLInputElement = <HTMLInputElement>document.getElementById("wordInput");
-let buttonAdd: HTMLButtonElement = <HTMLButtonElement>document.getElementById("buttonAdd");
+let buttonAdd: HTMLButtonElement = <HTMLButtonElement>document.getElementById("addButton");
 buttonAdd.addEventListener("click", addListElement);
 
 function addListElement(): void {
